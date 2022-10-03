@@ -1,0 +1,41 @@
+html, body{
+    width: 100%;
+}
+
+h1, h2{
+    text-align: center;
+}
+
+.wrapper{
+    display: flex;
+    width: 70%;
+    margin: auto;
+    justify-content: center;
+}
+
+.left-container{
+    flex-basis: 33%;
+}
+
+.right-container{
+    flex-basis: 67%;
+}
+
+.border-prop{
+    border: 4px dashed red;
+    padding: 2em;
+    margin: 2em;
+}
+
+#image{
+    width: 200px;
+    float: right;
+}
+
+#clear{
+    clear: both;
+}
+
+#fixed{
+    margin-bottom: 5px;
+}
